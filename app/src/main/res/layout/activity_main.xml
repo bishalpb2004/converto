@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#877878"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/inputunit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="115dp"
+        android:autofillHints=""
+        android:gravity="center_horizontal"
+        android:hint="Input Number"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:textStyle="bold"
+        tools:ignore="RelativeOverlap,TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="485dp"
+        tools:ignore="RelativeOverlap" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="144dp"
+        android:text="Calculate"
+        tools:ignore="RelativeOverlap" />
+
+
+
+    <Switch
+        android:id="@+id/cm1"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="167dp"
+        android:minHeight="48dp"
+        android:text="cm"
+        tools:ignore="RelativeOverlap,UseSwitchCompatOrMaterialXml,DuplicateSpeakableTextCheck,TextContrastCheck" />
+
+    <Switch
+        android:id="@+id/cm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="167dp"
+        android:layout_marginEnd="47dp"
+        android:minHeight="48dp"
+        android:text="cm"
+        tools:ignore="RelativeOverlap,UseSwitchCompatOrMaterialXml,TextContrastCheck" />
+
+    <Switch
+        android:id="@+id/mm1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="213dp"
+        android:minHeight="48dp"
+        android:text="mm"
+        android:textColor="#000000"
+        tools:ignore="RelativeOverlap,UseSwitchCompatOrMaterialXml,DuplicateSpeakableTextCheck" />
+
+    <Switch
+        android:id="@+id/km1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginBottom="383dp"
+        android:minHeight="48dp"
+        android:text="km"
+        android:textColor="#000000"
+        tools:ignore="DuplicateSpeakableTextCheck,RelativeOverlap,UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/mm2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="214dp"
+        android:layout_marginEnd="45dp"
+        android:minHeight="48dp"
+        android:text="mm"
+        android:textColor="#000000"
+        tools:ignore="RelativeOverlap,UseSwitchCompatOrMaterialXml" />
+
+    <Switch
+        android:id="@+id/km2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="382dp"
+        android:minHeight="48dp"
+        android:text="km"
+        android:textColor="#000000"
+        tools:ignore="RelativeOverlap,UseSwitchCompatOrMaterialXml" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:text="____________________________________________________"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp"
+        android:text="__________________________________________________"
+        android:textColor="#000000" />
+
+    <Switch
+        android:id="@+id/metre1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="254dp"
+        android:minHeight="48dp"
+        android:text="metre" />
+
+    <Switch
+        android:id="@+id/metre2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="46dp"
+        android:minHeight="48dp"
+        android:text="metre" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="33dp"
+        android:text="CONVERTO"
+        android:textStyle="bold|italic"
+        android:textColor="@color/white"
+        android:textSize="22dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="12dp"
+        android:text="By Bishal Paul Biswas  |  9101626623"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
